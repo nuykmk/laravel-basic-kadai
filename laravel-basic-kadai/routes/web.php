@@ -1,7 +1,10 @@
 <?php
+//「ルート定義に使う Route クラスを読み込みますよ！」
+use Illuminate\Support\Facades\Route;     //Route クラスを使えるようにする
 
-use App\Http\Controllers\PostController;
-use Illuminate\Support\Facades\Route;
+//「PostControllerを使いますよ！」とLaravelに伝える宣言
+use App\Http\Controllers\PostController; //PostController を使えるようにする
+
 
 /*
 |--------------------------------------------------------------------------
