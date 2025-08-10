@@ -22,3 +22,5 @@ use App\Http\Controllers\PostController; //PostController を使えるように�
 // });
 
 Route::get('/posts', [PostController::class, 'index']);
+
+Route::get('/posts/{id}', [PostController::class, 'show']);
